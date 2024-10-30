@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <main>
+        <h2>GPA CALCULATOR</h2>
+        <div class="box">
+            <div class="inputBox">
+                <input type="text" placeholder="Enter subject name" id="sub" class="input">
+                <input type="text" placeholder="*Enter grade points" id="gp" class="input" required>
+                <input type="text" placeholder="*Enter credit" id="cred" class="input">
+                <button class="btn" id="addBtn">Add</button>
+            </div>
+            <span id="inputError" class="error"></span>
+            <span id="digitError" class="error"></span>
+            <table border="1">
+                <tr>
+                    <th>Subject</th>
+                    <th>grade point</th>
+                    <th>credit</th>
+                </tr>
+                <tr class="row">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+            <span id="result"></span>
+            <div class="btnBox">
+                <button id="calcBtn" class="btn">calculate</button>
+                <button id="resetBtn" class="btn">reset</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
